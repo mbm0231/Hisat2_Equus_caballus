@@ -1,5 +1,7 @@
 # Hisat2_Equus_caballus
-
+1. Filter out gap-only sequences
+2. Create a cleaned FASTA file
+3. Use the cleaned file for HISAT2 indexing
 ```
 #!/bin/bash
 
