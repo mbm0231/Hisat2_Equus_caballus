@@ -96,6 +96,6 @@ singularity run --app hisat2221 "$Hisat2image" hisat2 \
 $SAMTOOLS index "$ALIGN_DIR/accepted_hits.bam"
 
 echo "HISAT2 alignment and BAM indexing completed at $(date)"
-'''
+
 
 ```
