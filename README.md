@@ -97,9 +97,5 @@ $SAMTOOLS index "$ALIGN_DIR/accepted_hits.bam"
 
 echo "HISAT2 alignment and BAM indexing completed at $(date)"
 '''
-# Save the script to a file
-script_filename = "hisat2_cleaned_reference.sh"
-with open(script_filename, "w") as script_file:
-    script_file.write(script_content)
-print(f"Updated HISAT2 script written to {script_filename}")
+
 ```
